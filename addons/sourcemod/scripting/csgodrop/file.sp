@@ -17,7 +17,7 @@ void SendFileInfo(int client, const char[] sItemName, const char[] sItemPrice) {
     strcopy(filename, sizeof(filename), g_sFileName);
 
     char date[15];
-    FormatTime(date, sizeof(date), "%d.%m.%Y.cfg", GetTime());
+    FormatTime(date, sizeof(date), "%d.%m.%Y.txt", GetTime());
 
     char authid[MAX_AUTHID_LENGTH];
     GetClientAuthId(client, AuthId_Steam2, authid, sizeof(authid));
