@@ -1,0 +1,130 @@
+"Phrases"
+{
+	"Error GameData"
+	{
+		"tr"			"Drop oyun verileri yüklenemedi."
+	}
+
+	"Error OS"
+	{
+		"tr"			"İşletim sistemi offseti alınamadı."
+	}
+
+	"Error RewardMatchEndDrops"
+	{
+		"tr"			"CCSGameRules::RewardMatchEndDrops için SDKCall oluşturulamadı."
+	}
+
+	"Error RecordPlayerItemDrop"
+	{
+		"tr"			"CCSGameRules::RewardMatchEndDrops için SDKCall oluşturulamadı."
+	}
+
+	"Error RecordPlayerItemDrop Enable"
+	{
+		"tr"			"CCSGameRules::RecordPlayerItemDrop için sapma başarısız oldu."
+	}
+
+	"Error DropForAllPlayersPatch Address"
+	{
+		"tr"			"DropForAllPlayersPatch adresi alınamadı, drop tüm oyuncular için geçerli olmayacak."
+	}
+
+	"Error DropForAllPlayersPatch Load"
+	{
+		"tr"			"DropForAllPlayersPatch beklediğimiz gibi değil, drop tüm oyuncular için geçerli olmayacak."
+	}
+
+	"Trying Drop"
+	{
+		"tr"			"{purple}Drop düşürülüyor..."
+	}
+
+	"Drop Attempt Failed"
+	{
+		"tr"			"{lightred}Kimseye Drop Düşmedi :("
+	}
+
+	"Dropped an Item Kick Reason"
+	{
+		"tr"			"Drop düşürdün! Envanterini kontrol et"
+	}
+
+	"Dropped an Item HudText"
+	{
+		"#format" 		"{1:s}"
+		"tr"			"{1} Drop düşürdün! Envanterini kontrol et."
+	}
+
+	"Dropped an Item Telegram Text"
+	{
+		"#format"		"{1:N}{2:s}{3:s}"
+		"tr"			"{1} {2} düşürdü. Fiyatı: {3}"
+	}
+
+	"Dropped an Item Text"
+	{
+		"#format" 		"{1:N}{2:s}{3:s}"
+		"tr"			"{darkblue}{1} {purple}{2} {green}düşürdü{white}. {green}Fiyatı: {orchid}{3}"
+	}
+
+	"Dropped an Item File Text"
+	{
+		"#format" 		"{1:s}{2:N}{3:s}{4:s}"
+		"tr"			"<{1}> {2} {3} düşürdü. Fiyatı: {4}"
+	}
+
+	"Unknown Item"
+	{
+		"tr"			"Bilinmeyen Item"
+	}
+
+	"Discord Embed Title"
+	{
+		"tr" 			"Bir Oyuncuya Drop Düştü"
+	}
+
+	"Discord Embed Field Hostname Title"
+	{
+		"tr"			"Sunucu Adı"
+	}
+
+	"Discord Embed Field Hostname Content"
+	{
+		"#format" 		"{1:s}{2:s}{3:d}"
+		"tr"			"{1} ★{2}:{3}★"
+	}
+
+	"Discord Embed Field Player Info Title"
+	{
+		"tr"			"Oyuncu"
+	}
+
+	"Discord Embed Field Player Info Content"
+	{
+		"#format" 		"{1:s}{2:s}{3:s}{4:s}"
+		"tr"			"**♛** [{1}](http://steamcommunity.com/profiles/{3}) **★** [{2}](http://steamcommunity.com/profiles/{4})"
+	}
+
+	"Discord Embed Field Item Info Title"
+	{
+		"tr"			"Drop"
+	}
+
+	"Discord Embed Field Item Name"
+	{
+		"#format"		"{1:s}{2:s}"
+		"tr"			"**❂** [{1}](https://steamcommunity.com/market/listings/730/{2})"
+	}
+
+	"Discord Embed Field Price Info Title"
+	{
+		"tr"			"Fiyat"
+	}
+
+	"Discord Embed Footer"
+	{
+		"#format" 		"{1:s}{2:s}"
+		"tr"			"{1} • {2}"
+	}
+}

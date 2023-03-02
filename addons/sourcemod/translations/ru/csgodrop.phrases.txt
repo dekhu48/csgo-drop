@@ -1,0 +1,130 @@
+"Phrases"
+{
+	"Error GameData"
+	{
+		"ru"			"Не удалось загрузить данные игры."
+	}
+
+	"Error OS"
+	{
+		"ru"			"Не удалось получить смещение ОС."
+	}
+
+	"Error RewardMatchEndDrops"
+	{
+		"ru"			"Не удалось создать SDKCall для CCSGameRules::RewardMatchEndDrops."
+	}
+
+	"Error RecordPlayerItemDrop"
+	{
+		"ru"			"Не удалось задать путь службы для CCSGameRules::RecordPlayerItemDrop."
+	}
+
+	"Error RecordPlayerItemDrop Enable"
+	{
+		"ru"			"Ошибка Отклонение для CCSGameRules::RecordPlayerItemDrop."
+	}
+
+	"Error DropForAllPlayersPatch Address"
+	{
+		"ru"			"Не удалось получить адрес DropForAllPlayersPatch, падение будет доступен не для всех игроков."
+	}
+
+	"Error DropForAllPlayersPatch Load"
+	{
+		"ru"			"Не так, как мы ожидали в DropForAllPlayersPatch, падение будет доступно не для всех игроков."
+	}
+
+	"Trying Drop"
+	{
+		"ru"			"{purple}попытка получить дроп..."
+	}
+
+	"Drop Attempt Failed"
+	{
+		"ru"			"{lightred}Попытка неуспешна :("
+	}
+
+	"Dropped an Item Kick Reason"
+	{
+		"ru"			"Вы получили предмет! Проверьте свой инвентарь"
+	}
+
+	"Dropped an Item HudText"
+	{
+		"#format" 		"{1:s}"
+		"ru"			"{1} Вы получили предмет! Проверьте свой инвентарь."
+	}
+
+	"Dropped an Item Telegram Text"
+	{
+		"#format"		"{1:N}{2:s}{3:s}"
+		"ru"			"{1} получил {2}. Цена: {3}"
+	}
+
+	"Dropped an Item Text"
+	{
+		"#format" 		"{1:N}{2:s}{3:s}"
+		"ru"			"{darkblue}{1} {green}получил {purple}{2}{white}. {green}Цена: {orchid}{3}"
+	}
+
+	"Dropped an Item File Text"
+	{
+		"#format" 		"{1:s}{2:N}{3:s}{4:s}"
+		"ru"			"<{1}> {2} получил {3}. Цена: {4}"
+	}
+
+	"Unknown Item"
+	{
+		"ru"			"Неизвестный предмет"
+	}
+
+	"Discord Embed Title"
+	{
+		"ru" 			"Игрок получил"
+	}
+
+	"Discord Embed Field Hostname Title"
+	{
+		"ru"			"Имя хоста"
+	}
+
+	"Discord Embed Field Hostname Content"
+	{
+		"#format" 		"{1:s}{2:s}{3:d}"
+		"ru"			"{1} ★{2}:{3}★"
+	}
+
+	"Discord Embed Field Player Info Title"
+	{
+		"ru"			"Игрок"
+	}
+
+	"Discord Embed Field Player Info Content"
+	{
+		"#format" 		"{1:s}{2:s}{3:s}{4:s}"
+		"ru"			"**♛** [{1}](http://steamcommunity.com/profiles/{3}) **★** [{2}](http://steamcommunity.com/profiles/{4})"
+	}
+
+	"Discord Embed Field Item Info Title"
+	{
+		"ru"			"Предмет"
+	}
+
+	"Discord Embed Field Item Name"
+	{
+		"#format"		"{1:s}{2:s}"
+		"ru"			"**❂** [{1}](https://steamcommunity.com/market/listings/730/{2})"
+	}
+
+	"Discord Embed Field Price Info Title"
+	{
+		"ru"			"цена"
+	}
+
+	"Discord Embed Footer"
+	{
+		"#format" 		"{1:s}{2:s}"
+		"ru"			"{1} • {2}"
+	}
+}

@@ -1,0 +1,130 @@
+"Phrases"
+{
+	"Error GameData"
+	{
+		"en"			"Failed to load drop game data."
+	}
+
+	"Error OS"
+	{
+		"en"			"Failed to get OS offset."
+	}
+
+	"Error RewardMatchEndDrops"
+	{
+		"en"			"Failed to create SDKCall for CCSGameRules::RewardMatchEndDrops."
+	}
+
+	"Error RecordPlayerItemDrop"
+	{
+		"en"			"Could not set service path for CCSGameRules::RecordPlayerItemDrop."
+	}
+
+	"Error RecordPlayerItemDrop Enable"
+	{
+		"en"			"Deviation for CCSGameRules::RecordPlayerItemDrop failed."
+	}
+
+	"Error DropForAllPlayersPatch Address"
+	{
+		"en"			"Failed to get DropForAllPlayersPatch address, drop will not be available for all players."
+	}
+
+	"Error DropForAllPlayersPatch Load"
+	{
+		"en"			"Not as we expected at DropForAllPlayersPatch, drop will not be available for all players."
+	}
+
+	"Trying Drop"
+	{
+		"en"			"{purple}Trying drop..."
+	}
+
+	"Drop Attempt Failed"
+	{
+		"en"			"{lightred}Drop attempt failed :("
+	}
+
+	"Dropped an Item Kick Reason"
+	{
+		"en"			"You dropped an item! Check your inventory"
+	}
+
+	"Dropped an Item HudText"
+	{
+		"#format" 		"{1:s}"
+		"en"			"{1} You Dropped an Item! Check your inventory."
+	}
+
+	"Dropped an Item Telegram Text"
+	{
+		"#format"		"{1:N}{2:s}{3:s}"
+		"en"			"{1} dropped {2}. Price: {3}"
+	}
+
+	"Dropped an Item Text"
+	{
+		"#format" 		"{1:N}{2:s}{3:s}"
+		"en"			"{darkblue}{1} {green}dropped {purple}{2}{white}. {green}Price: {orchid}{3}"
+	}
+
+	"Dropped an Item File Text"
+	{
+		"#format" 		"{1:s}{2:N}{3:s}{4:s}"
+		"en"			"<{1}> {2} dropped {3}. Price: {4}"
+	}
+
+	"Unknown Item"
+	{
+		"en"			"Unknown Item"
+	}
+
+	"Discord Embed Title"
+	{
+		"en" 			"A Player Dropped"
+	}
+
+	"Discord Embed Field Hostname Title"
+	{
+		"en"			"Hostname"
+	}
+
+	"Discord Embed Field Hostname Content"
+	{
+		"#format" 		"{1:s}{2:s}{3:d}"
+		"en"			"{1} ★{2}:{3}★"
+	}
+
+	"Discord Embed Field Player Info Title"
+	{
+		"en"			"Player"
+	}
+
+	"Discord Embed Field Player Info Content"
+	{
+		"#format" 		"{1:s}{2:s}{3:s}{4:s}"
+		"en"			"**♛** [{1}](http://steamcommunity.com/profiles/{3}) **★** [{2}](http://steamcommunity.com/profiles/{4})"
+	}
+
+	"Discord Embed Field Item Info Title"
+	{
+		"en"			"Item"
+	}
+
+	"Discord Embed Field Item Name"
+	{
+		"#format"		"{1:s}{2:s}"
+		"en"			"**❂** [{1}](https://steamcommunity.com/market/listings/730/{2})"
+	}
+
+	"Discord Embed Field Price Info Title"
+	{
+		"en"			"Price"
+	}
+
+	"Discord Embed Footer"
+	{
+		"#format" 		"{1:s}{2:s}"
+		"en"			"{1} • {2}"
+	}
+}
