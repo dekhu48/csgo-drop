@@ -38,7 +38,6 @@ void OnPluginStart_Cvars() {
     cvar.telegram_chat_id = CreateConVar("sm_csgo_drop_telegram_chat_id", "", "Telegram chat id to send item infos to telegram chat.");
 
     OnCvarChanged(cvar.tag, NULL_STRING, NULL_STRING);
-    OnCvarChanged(cvar.drop_attempt_time, NULL_STRING, NULL_STRING);
     OnCvarChanged(cvar.discord_webhook, NULL_STRING, NULL_STRING);
     OnCvarChanged(cvar.telegram_token, NULL_STRING, NULL_STRING);
     OnCvarChanged(cvar.telegram_chat_id, NULL_STRING, NULL_STRING);

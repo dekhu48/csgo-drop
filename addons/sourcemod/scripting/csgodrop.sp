@@ -51,6 +51,8 @@ public void OnPluginEnd() {
 }
 
 public void OnMapStart() {
+	CreateAttemptTimer();
+
 	PrecacheSound("ui/panorama/case_awarded_1_uncommon_01.wav");
 }
 
